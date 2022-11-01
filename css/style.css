@@ -27,6 +27,7 @@ header{
     justify-content: flex-end;
     align-items: center;
     width: 100%;
+    color: white;
 }
 
 .row{
@@ -41,15 +42,23 @@ header{
     text-align: center;
 }
 
-.col-footer25{
+.col-footer25-start{
     width: 25%;
-    text-align: center;
+    display: flex;
+    
+}
+.col-footer25-end{
+    width: 25%;
+    text-align: end;
+    
 }
 
 .col-footer50{
     width: 50%;
     text-align: center;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 .button-header{
     background-color: rgba(128, 128, 128, 0.8);
@@ -66,8 +75,11 @@ i{
     vertical-align: middle;
     color: white;
     background-color: transparent;
+    
 }
-
+.icons{
+    margin-right: 10px;
+}
 /* MAIN */
 
 main{
@@ -131,3 +143,10 @@ main{
     background-color: grey;
     height: 200px;
 }
+
+.elements{
+    margin-right: 20px;
+    text-align: center;
+}
+
+
