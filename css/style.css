@@ -49,9 +49,12 @@ header{
 }
 .col-footer25-end{
     width: 25%;
-    text-align: end;
-    
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
+    
+
 
 .col-footer50{
     width: 50%;
@@ -140,13 +143,21 @@ main{
 
 .container-footer{
     width: 100%;
-    background-color: grey;
-    height: 200px;
+    margin: 0 auto;
+    
 }
 
 .elements{
     margin-right: 20px;
     text-align: center;
+}
+
+.button-footer{
+    background-color: rgba(128, 128, 128, 0.8);
+    color: red;
+    padding: 2%;
+    border: none;
+    cursor: pointer;
 }
 
 
